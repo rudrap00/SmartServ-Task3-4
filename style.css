@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(17, 16, 16, 0.808);
+    font-family: sans-serif;
+}
+
+h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    background: linear-gradient(to right, rgb(26, 167, 50) 57%, white 10%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.login{
+    
+    width: 250px;
+    height: 200px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 100px;
+    padding: 80px;
+    background-color: black;
+    border-radius: 10px;
+    align-self: center;
+}
+
+#user, #pass{
+    width: 250px;
+    height: 25px;
+    border: none;
+    border-radius: 2px;
+    padding-left: 6px;
+    border-radius: 4px;
+}
+
+#log{
+    width: 260px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: rgb(114, 219, 54);
+    color: white;
+}
+
+a{
+    padding-left: 68px;
+    color: grey;
+    font-size: small;
+}
